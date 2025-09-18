@@ -190,6 +190,9 @@
   font-size: 44px;
   line-height: 52px;
   margin-bottom: 80px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .form {
