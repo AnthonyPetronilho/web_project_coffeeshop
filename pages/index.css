@@ -189,11 +189,12 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  margin-bottom: 80px;
 }
 
 .form {
   max-width: 385px;
-  margin: 80px auto;
+  margin: 0px auto;
 }
 
 .form__fieldset {
