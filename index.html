@@ -12,7 +12,6 @@
       name="keywords"
       content="café, cafeteria, espresso, cappuccino, grãos especiais"
     />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -77,6 +76,7 @@
           </p>
         </div>
       </header>
+
       <main class="content">
         <section class="recipes" id="recipes">
           <h2 class="recipes__title">Receitas</h2>
@@ -180,18 +180,20 @@
           </form>
         </section>
       </main>
+
       <footer class="footer" id="contacts">
-        <div class="footer__columns">
+        <div class="footer__content">
           <img
             class="footer__logo"
             src="/images/logo_coffeeshop_light.svg"
             alt="Logo"
           />
-          <div class="footer__content">
-            <h2 class="footer__content-heading">Redes Sociais</h2>
+          <div class="footer__circle"></div>
+          <div class="footer__social">
+            <h2 class="footer__social-heading">Mídia Social</h2>
             <ul class="footer__list">
               <li class="footer__list-item">
-                <a class="footer__content-link" href="#">
+                <a class="footer__social-link" href="#">
                   <img
                     src="images/facebook_white.svg"
                     alt="Facebook"
@@ -201,7 +203,7 @@
                 </a>
               </li>
               <li class="footer__list-item">
-                <a class="footer__content-link" href="#">
+                <a class="footer__social-link" href="#">
                   <img
                     src="images/instagram_white.svg"
                     alt="Instagram"
@@ -213,7 +215,6 @@
             </ul>
           </div>
         </div>
-        <div class="footer__circle"></div>
         <p class="footer__copyright">©2025 Anthony Petronilho</p>
       </footer>
     </div>
